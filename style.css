@@ -2,3 +2,13 @@ img{
     height: 200px;
     object-fit: cover;
 }
+
+.pizza-item {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+.pizza-item:hover {
+    transform: scale(1.05);
+}
