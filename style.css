@@ -1,36 +1,4 @@
 img{
-    width: 100%;
     height: 200px;
     object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    
-}
-
-.map-wapper{
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.map-wapper iframe{
-    width: 80%;
-    max-width: 700px;
-    height: 450px;
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rbg(0,0,0,0.2);
-}
-
-.menu-description{
-    width: 100%;
-    max-width: 1000px;
-    margin: 60px auto;
-    padding: 30px;
-}
-
-.menu-description p {
-    font-size: 22px;
-    line-height: 1.8;
-    color: #222;
 }
