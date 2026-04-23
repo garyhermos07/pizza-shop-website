@@ -12,3 +12,26 @@ img{
 .pizza-item:hover {
     transform: scale(1.05);
 }
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
