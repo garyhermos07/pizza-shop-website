@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Menu</h1>
+     <h1 id="Menu" class="text-center">Our Menu</h1>
+            
+            <div class="menu-description text-center">
+               <p> Come and enjoy our delicious, freshly made pizza! Each pizza is crafted with love and the finest ingredients.</p>
+                <p>Our cozy shop is located in a calm and lovely area, perfect for relaxing and enjoy a meal with family or friends.
+                We guarntee a tasty experience that will make you want to come back again and again!.
+               </p>
+               </div>
+            
+               <div class="text-center my-4">
+                <h3>Your Selections</h3>
+                <p id="selected-item">Click a pizza to see details</p>
+               </div>
+
+               <div class="container text-center my-4">
+                  <div class="row">
+
+                    <div class="col-md-4">
+                      <img src="images/cheese.jpg" class="img-fluid rounded shadow pizza-item" 
+                           atl="Chesse pizza" onclick="selectpizza ('Cheese Pizza', '$10')">
+                      <h5 class="mt-2">Cheese Pizza</h5>
+                    </div>
+
+                    <div class="col-md-4">
+                      <img src="images/pepperoni.jpg" class="img-fluid rounded shadow pizza-item" 
+                           alt="Pepperoni Pizza" onclick="selectpizza ('Pepperoni Pizza', '$12')">
+                      <h5 class="mt-2">Pepperoni Pizza</h5>
+                    </div>
+
+                      <div class="col-md-4">
+                        <img src="images/veggie.jpg" class="img-fluid rounded shadow pizza-item" 
+                             alt="Veggie Pizza" onclick="selectpizza ('Veggie Pizza', '$11')">
+                        <h5 class="mt-2">Veggie Pizza</h5>
+                      </div>
+                  </div>
+                  
+                  <a href="index.html">Home</a>
+</body>
+</html>
