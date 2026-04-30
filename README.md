@@ -27,5 +27,10 @@ A simple information website for a pizza shop
  1. Download or clone the respoitory
  2. Open 'index.html' in your browser 
 
+ ## User Stories
+ - As a user, I want to navigate between different pages so i can easily find the information i need.
+ - As a user, I want to view the main content clearly so i can undertsand what the website is about.
+ - As a user, I want to interact with buttons or links so i can access different features of the site.
+ 
  ## Author 
  . Gary Hermosa
